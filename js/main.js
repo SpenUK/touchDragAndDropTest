@@ -17,7 +17,7 @@ function randomiseDays(){
 		var pill = $(pills[i]).find('a').html();
 		days += pill;
 	};
-	if (days != inOrder) {console.log('mixed'); return false};
+	if (days != inOrder) return false;
 
 	pills.detach();
 	for ( i = pills.length - 1; i >= 0; i--) {
@@ -25,7 +25,12 @@ function randomiseDays(){
 		pillsContainer.append(pills.splice(rand, 1));
 		
 	};
-
+	
 }
 
- randomiseDays();
+
+	
+$(document).ready(function(){
+		randomiseDays();
+		pillsContainer.sortable({axis: "y", containment: pillsContainer});
+})
