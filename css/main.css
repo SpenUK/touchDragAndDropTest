@@ -1,0 +1,73 @@
+body {
+	background-color: #E8DFC5;
+	color: #444;
+	font-family: 'ubuntu', sans-serif;
+}
+
+h1,h4 {
+	color: #EA7424;
+	font-weight: bold;
+}
+
+.navbar {
+	background-color: #473A30;
+	border: none;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.nav-pills>li>a {
+	background-color: whitesmoke;
+	color: #EA7424;
+	box-shadow: 0 3px 0 #CCC;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+
+}
+.btn-primary,.btn-default {
+	position: relative;
+	color: whitesmoke;
+	background-color: #EA7424; 
+	/*border-color: #C96623;*/
+	border: none;
+	box-shadow: 0 3px 0 #C96623;
+}
+.btn-primary:hover, .btn-default:hover {
+	background-color: #EA7424; 
+	color: whitesmoke;
+}
+
+.btn-primary:active, .btn-default:active {
+	box-shadow: none;
+	background-color: #EA7424; 
+	top: 3px;
+}
+
+/*#myModel .modal-dialog*/
+ .modal-footer, .modal-header {
+	background-color: #E8DFC5;
+	border-bottom: 3px solid #B7AF9A;
+}
+
+.modal-header {
+	border-radius: 6px 6px  0 0;
+}
+.modal-footer {
+	border-radius: 0 0 6px 6px;	
+}
+
+.modal-title {
+	text-align: center;
+}
+
+.btn-next, .btn-next:hover, .btn-next:active {
+	background-color: #49C954;
+	box-shadow: 0 3px 0 #3FA548;
+}
+
+.btn-next:active {
+	box-shadow: none;
+}
